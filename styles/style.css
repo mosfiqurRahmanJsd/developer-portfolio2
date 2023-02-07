@@ -96,7 +96,7 @@ main {
 }
 
 .section-title {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     font-size: 35px;
     font-weight: 700;
     text-align: center;
@@ -148,4 +148,43 @@ main {
 
 .skill-description {
     color: #757575;
+}
+
+/* Resume Section added */
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.resume-item {
+    margin: 30px 0;
+}
+
+.resume-item .title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume-item .sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-item .description {
+    color: #757575;
+}
+
+.resume-btn {
+    margin-top: 50px;
+    text-align: center;
 }
